@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="BeTheHero" title="#BeTheHero" src="https://github.com/DanielObara/SemanaOmnistack11/blob/master/.github/logo.svg" width="250px" />
+    <img alt="BeTheHero" title="#BeTheHero" src="https://github.com/DynhoROLF/Ideas/blob/master/frontend/src/assets/logoPixS.png" width="250px" />
 </h1>
 
 <h4 align="center"> 
@@ -11,8 +11,8 @@
     <img alt="Made by Waldyr Filho" src="https://img.shields.io/badge/made%20by-WaldyrFilho-%2304D361">
   </a>
 
-  <a href="https://github.com/DanielObara/SemanaOmnistack11/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DanielObara/SemanaOmnistack11">
+  <a href="https://github.com/DynhoROLF/Ideas/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DynhoROLF/Ideas">
   </a>
 
 <a aria-label="Completed" href="https://rocketseat.com.br/week-10/aulas#4">
@@ -36,7 +36,7 @@
 Be The Hero is a project that aims to connect people who are willing to help ONGs.
 
 <h1 align="center">
-    <img alt="Login-Page" title="Login-Page" src="https://github.com/DanielObara/SemanaOmnistack11/blob/master/.github/preview.jpg" width="500px" />
+    <img alt="Login-Page" title="Login-Page" src="https://github.com/DynhoROLF/Ideas/blob/master/frontend/src/assets/GerenciandoFoto.png" width="500px" />
 </h1>
 
 
@@ -55,17 +55,17 @@ Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/2C
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] || [Npm][npm] installed on your computer.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [npm][https://docs.npmjs.com] installed on your computer.
 
 From your command line:
 
 ### Install API
 ```bash
 # Clone this repository
-$ git clone https://github.com/DanielObara/SemanaOmnistack11
+$ git clone https://github.com/DynhoROLF/Ideas.git
 
 # Go into the repository
-$ cd SemanaOmnistack11/backend
+$ cd /backend
 
 # Install dependencies
 $ npm install
@@ -83,16 +83,12 @@ $ npm dev
 $ npm test
 ```
 
-## :memo: License
-
-This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
-
 ---
 
-Made with ♥ by Waldyr Filho :wave: [Get in touch!](https://www.linkedin.com/in/waldyr-romero-de-oliveira-filho-357bb013a/)
+Made by Waldyr Filho :wave: [Get in touch!](https://www.linkedin.com/in/waldyr-romero-de-oliveira-filho-357bb013a/)
 
 [nodejs]: https://nodejs.org/
-[yarn]: https://yarnpkg.com/
+[npm]:https://docs.npmjs.com/
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
