@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="BeTheHero" title="#BeTheHero" src=".github/logo.svg" width="250px" />
+    <img alt="BeTheHero" title="#BeTheHero" src="https://github.com/DanielObara/SemanaOmnistack11/blob/master/.github/logo.svg" width="250px" />
 </h1>
 
 <h4 align="center"> 
