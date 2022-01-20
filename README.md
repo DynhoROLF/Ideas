@@ -10,8 +10,8 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/DanielObara/SemanaOmnistack11">
 	
-  <a href="https://www.linkedin.com/in/danielobara/">
-    <img alt="Made by Waldyr Filho" src="https://www.linkedin.com/in/waldyr-romero-de-oliveira-filho-357bb013a/">
+  <a href="https://www.linkedin.com/in/waldyr-romero-de-oliveira-filho-357bb013a/">
+    <img alt="Made by Waldyr Filho" src="https://img.shields.io/github/repo-size/DanielObara/SemanaOmnistack11">
   </a>
 
   <a href="https://github.com/DanielObara/SemanaOmnistack11/commits/master">
