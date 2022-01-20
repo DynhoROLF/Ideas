@@ -6,9 +6,6 @@
 	:heavy_check_mark: 🚀 Semana OmniStack 11.0 :heavy_check_mark:
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanielObara/SemanaOmnistack11?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DanielObara/SemanaOmnistack11">
 	
   <a href="https://www.linkedin.com/in/waldyr-romero-de-oliveira-filho-357bb013a/">
     <img alt="Made by Waldyr Filho" src="https://img.shields.io/badge/made%20by-WaldyrFilho-%2304D361">
@@ -21,9 +18,6 @@
 <a aria-label="Completed" href="https://rocketseat.com.br/week-10/aulas#4">
     <img src="https://img.shields.io/badge/OmniStack-done-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
   </a>
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/DanielObara/SemanaOmnistack11/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/DanielObara/SemanaOmnistack11?style=social">
   </a>
 </p>
 <p align="center">
@@ -34,7 +28,6 @@
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -62,7 +55,7 @@ Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/2C
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] || [Npm][npm] installed on your computer.
 
 From your command line:
 
@@ -75,29 +68,20 @@ $ git clone https://github.com/DanielObara/SemanaOmnistack11
 $ cd SemanaOmnistack11/backend
 
 # Install dependencies
-$ yarn install
+$ npm install
 
 # Run Migrates
-$ yarn knex migrate:latest 
+$ npm knex migrate:latest 
 
 # Run Seeds
-$ yarn seed
+$ npm seed
 
 # Run the API
-$ yarn dev
+$ npm dev
 
 # Run tests
-$ yarn test
+$ npm test
 ```
-
-## 🤔 How to contribute
-
-- Make a fork;
-- Create a branck with your feature: `git checkout -b my-feature`;
-- Commit changes: `git commit -m 'feat: My new feature'`;
-- Make a push to your branch: `git push origin my-feature`.
-
-After merging your receipt request to done, you can delete a branch from yours.
 
 ## :memo: License
 
@@ -105,7 +89,7 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) for details
 
 ---
 
-Made with ♥ by Daniel Obara :wave: [Get in touch!](https://www.linkedin.com/in/danielobara/)
+Made with ♥ by Waldyr Filho :wave: [Get in touch!](https://www.linkedin.com/in/waldyr-romero-de-oliveira-filho-357bb013a/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
