@@ -31,9 +31,8 @@
 
 Be The Hero is a project that aims to connect people who are willing to help ONGs.
 
-<h1 align="center">
-    <img alt="Login-Page" title="Login-Page" src="https://github.com/DynhoROLF/Ideas/blob/master/frontend/src/assets/GerenciandoFoto.png" width="500px" />
-</h1>
+![image](https://user-images.githubusercontent.com/97751715/151605268-66ad3436-af83-4b98-a8c7-b8b492adbdf3.png)
+
 
 
 ## :rocket: Technologies
