@@ -21,10 +21,17 @@
     align-items: center;
 }
 
-.register-cantainer .content section {
+.register-container .content section {
     width: 100%;
     max-width: 380px;
 }
+
+
+.register-container .content section img{
+    max-width: 200px;
+}
+
+
 
 .register-container .content section h1 {
     margin: 40px 0 20px;

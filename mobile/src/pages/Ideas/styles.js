@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react';
-import Constants from 'expo-constants';
+import { StyleSheet } from 'react-native';
+import Constants from 'expo-constants'
 
 export default StyleSheet.create({
     container: {
@@ -20,7 +20,7 @@ export default StyleSheet.create({
     },
 
     headerTextBold: {
-        fontWeight: 'bold'
+        fontWeight: 'bold',
     },
 
     title: {
@@ -58,18 +58,18 @@ export default StyleSheet.create({
         marginTop: 8,
         fontSize: 15,
         marginBottom: 24,
-        color: '#737380'
+        color: '#737380',
     },
 
     detailsButton: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
     },
 
     detailsButtonText: {
-        color: '#E02041',
+        color: '#4158D0',
         fontSize: 15,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
     },
 });
