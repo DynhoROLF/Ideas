@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-.register-cantainer .content section {
+.register-container .content section {
     width: 100%;
     max-width: 380px;
 }
@@ -30,6 +30,10 @@
     margin: 40px 0 20px;
     font-size: 32px;
     color: #4158D0;
+}
+
+.new-idea-container .content section img {
+    max-width: 200px;
 }
 
 .new-idea-container .content section p{

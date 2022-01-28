@@ -2,7 +2,7 @@ const connection = require('../database/connection');
 
 module.exports = {
     async index(request, response) {
-        const { page = 1} = request.query;
+        const { page = 1 } = request.query;
 
         const [count] = await connection('ideas').count();
 
@@ -19,7 +19,7 @@ module.exports = {
             'users.uf'
         ]);
     
-        response.header('X-Total-Count', count['count(x)']);
+        response.header('X-Total-Count', count['count(*)']);
 
         return response.status(200).json(ideas);
     },
