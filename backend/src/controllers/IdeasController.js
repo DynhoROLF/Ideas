@@ -1,8 +1,8 @@
 const connection = require('../database/connection');
 
 module.exports = {
-    async index(request, response) {
-        const { page = 1 } = request.query;
+    async index(req, res) {
+        const { page = 1 } = req.query;
 
         const [count] = await connection('ideas').count();
 
@@ -19,14 +19,14 @@ module.exports = {
             'users.uf'
         ]);
     
-        response.header('X-Total-Count', count['count(*)']);
+        res.header('X-Total-Count', count['count(*)']);
 
-        return response.status(200).json(ideas);
+        return res.status(200).json(ideas);
     },
 
-    async create(request, response){
-        const {title, description, value } = request.body;
-        const user_id = request.headers.authorization;
+    async create(req, res){
+        const {title, description, value } = req.body;
+        const user_id = req.headers.authorization;
 
         const [id] = await connection('ideas').insert({
             title,
@@ -35,12 +35,12 @@ module.exports = {
             user_id,
         })
 
-        return response.status(201).json({ id });
+        return res.status(201).json({ id });
     },
 
-    async delete(request, response){
-        const { id } = request.params;
-        const user_id = request.headers.authorization;
+    async delete(req, res){
+        const { id } = req.params;
+        const user_id = req.headers.authorization;
 
         const idea = await connection('ideas')
         .where('id', id)
@@ -48,13 +48,13 @@ module.exports = {
         .first();
 
         if (idea.user_id !== user_id) {
-            return response.status(401).json({ error: 'Operation not permitted.' });
+            return res.status(401).json({ error: 'Operation not permitted.' });
         }
 
         await connection('ideas')
         .where('id', id)
         .delete();
 
-        return response.status(204).send();
+        return res.status(204).send();
     }
 };
